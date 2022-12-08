@@ -1,0 +1,44 @@
+﻿{
+  //Common inputs
+  //Options - Firefox/Chrome
+  "WebDriver": "Chrome",
+  // "WebDriverPath": "C:\\Users\\91994\source\\repos\\Automation\\WebDrivers\\chromedriver.exe",
+  "AppUrl1": "http://bossuat.techaffinity.us:78/Login",
+  "Username": "babum@techaffinity.com",
+  "Password": "1qaz",
+
+  "Prospect": {
+    "CompanyName": "Techaffinity",
+    "ContactName": "Tech1",
+    "ContactTitle": "Tech",
+    "ContactNo": "9088417921",
+    "AlternateContactNo": "4231808310",
+    "ExtensionNo": "12345",
+    "ContactEmail": "testing@gmail.com",
+    "Website": "www.testing.com",
+    "CompanyLinkedin": "Techaffinity",
+    "Industry": "IT",
+    "Address1": "123b",
+    "Address2": "456b",
+    "Country": "India",
+    "State": "Tamilnadu",
+    "City": "Chennai",
+    "ZipCode": "625083",
+    "TimeZone": "(GMT+05:30) Chennai, Kolkata, Mumbai, New Delhi",
+    "CompanySize": "1-10",
+    "Executive": "Babu",
+    "Source": "qwerty",
+    "AdditionalInformation": "testing",
+    "AdditionalContactName": "Dinesh",
+    "AdditionalContactTitle": "Testing",
+    "AdditionalContactNumber": "2132174827",
+    "AdditionalEmail": "din@gmail.com"
+
+
+
+
+
+
+  }
+}
+
