@@ -46,21 +46,161 @@ namespace BossAT.TestCases.BBC
             objCommon.sleepForSeconds(5);
             objCommon.clickElement("xpath", "(//button[text()='Back to List'])[1]");
             objCommon.sleepForSeconds(5);
+        }
+        [Test]
+        [Category("BBC")]
+        public void TC_BAS_82()
+        {
+            /* Verify delete functionality */
+            objCommon = new Common(GetDriver());
+            aTConfigurations = objCommon.getConfig();
+            objCommon.goToPage(aTConfigurations.AppUrl1);
+            objCommon.fillTextBox("id", "Email", aTConfigurations.Username);
+            objCommon.fillTextBox("id", "PasswordHash", aTConfigurations.Password);
+            objCommon.clickElement("name", "Login");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "(//a[text()='BBC '])[1]");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//a[text()='Booking']");
+            objCommon.sleepForSeconds(5);
             objCommon.clickElement("id", "chkAllSoW");
+            objCommon.sleepForSeconds(5);
+
+        }
+        public void TC_BAS_83()
+        {
+            /* Verify delete functionality */
+            objCommon = new Common(GetDriver());
+            aTConfigurations = objCommon.getConfig();
+            objCommon.goToPage(aTConfigurations.AppUrl1);
+            objCommon.fillTextBox("id", "Email", aTConfigurations.Username);
+            objCommon.fillTextBox("id", "PasswordHash", aTConfigurations.Password);
+            objCommon.clickElement("name", "Login");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "(//a[text()='BBC '])[1]");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//a[text()='Booking']");
             objCommon.sleepForSeconds(5);
             objCommon.clickElement("id", "a5392");
             objCommon.sleepForSeconds(5);
             objCommon.clickElement("id", "idtab_2");
             objCommon.sleepForSeconds(5);
-            objCommon.clickElement("xpath", "//div[text()='Add test 1']");
+        }
+        [Test]
+        [Category("BBC")]
+        public void TC_BAS_84()
+        {
+            /* Verify delete functionality */
+            objCommon = new Common(GetDriver());
+            aTConfigurations = objCommon.getConfig();
+            objCommon.goToPage(aTConfigurations.AppUrl1);
+            objCommon.fillTextBox("id", "Email", aTConfigurations.Username);
+            objCommon.fillTextBox("id", "PasswordHash", aTConfigurations.Password);
+            objCommon.clickElement("name", "Login");
             objCommon.sleepForSeconds(5);
-            objCommon.clickElement("xpath", "//div[text()='Advanced Diagnostic']");
+            objCommon.clickElement("xpath", "(//a[text()='BBC '])[1]");
             objCommon.sleepForSeconds(5);
-            objCommon.clickElement("xpath", "//div[text()='Airtel']");
+            objCommon.clickElement("xpath", "//a[text()='Booking']");
             objCommon.sleepForSeconds(5);
-            objCommon.clickElement("xpath", "//div[text()='Amazon']");
+            objCommon.clickElement("xpath", "//td[text()='Yuvi Company']//..//a[@class='fa fa-eye']");
+            objCommon.sleepForSeconds(5);
+        }
+        [Test]
+        [Category("BBC")]
+        public void TC_BAS_85()
+        {
+            /* Verify delete functionality */
+            objCommon = new Common(GetDriver());
+            aTConfigurations = objCommon.getConfig();
+            objCommon.goToPage(aTConfigurations.AppUrl1);
+            objCommon.fillTextBox("id", "Email", aTConfigurations.Username);
+            objCommon.fillTextBox("id", "PasswordHash", aTConfigurations.Password);
+            objCommon.clickElement("name", "Login");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "(//a[text()='BBC '])[1]");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//a[text()='Booking']");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//td[text()='Yuvi Company']//..//a[@class='fa fa-eye']");
             objCommon.sleepForSeconds(5);
             objCommon.clickElement("xpath", "(//button[text()='Back to List'])[1]");
+            objCommon.sleepForSeconds(5);
+        }
+        [Test]
+        [Category("BBC")]
+        public void TC_BAS_86()
+        {
+            /* Verify delete functionality */
+            objCommon = new Common(GetDriver());
+            aTConfigurations = objCommon.getConfig();
+            objCommon.goToPage(aTConfigurations.AppUrl1);
+            objCommon.fillTextBox("id", "Email", aTConfigurations.Username);
+            objCommon.fillTextBox("id", "PasswordHash", aTConfigurations.Password);
+            objCommon.clickElement("name", "Login");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "(//a[text()='BBC '])[1]");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//a[text()='Booking']");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//td[text()='Yuvi Company']//..//a[@title='Users']");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("name", "UserID");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//option[text()='Babu']");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("name", "SalesRoleID");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//option[text()='Manager']");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//input[@value='Save']");
+            objCommon.sleepForSeconds(5);
+        }
+        [Test]
+        [Category("BBC")]
+        public void TC_BAS_87()
+        {
+            /* Verify delete functionality */
+            objCommon = new Common(GetDriver());
+            aTConfigurations = objCommon.getConfig();
+            objCommon.goToPage(aTConfigurations.AppUrl1);
+            objCommon.fillTextBox("id", "Email", aTConfigurations.Username);
+            objCommon.fillTextBox("id", "PasswordHash", aTConfigurations.Password);
+            objCommon.clickElement("name", "Login");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "(//a[text()='BBC '])[1]");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//a[text()='Booking']");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//td[text()='Yuvi Company']//..//a[@title='Users']");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("name", "UserID");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//option[text()='Babu']");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("name", "SalesRoleID");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//option[text()='Manager']");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//input[@value='Save']");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//button[@class='close']");
+            objCommon.sleepForSeconds(5);
+        }
+        [Test]
+        [Category("BBC")]
+        public void TC_BAS_88()
+        {
+            /* Verify delete functionality */
+            objCommon = new Common(GetDriver());
+            aTConfigurations = objCommon.getConfig();
+            objCommon.goToPage(aTConfigurations.AppUrl1);
+            objCommon.fillTextBox("id", "Email", aTConfigurations.Username);
+            objCommon.fillTextBox("id", "PasswordHash", aTConfigurations.Password);
+            objCommon.clickElement("name", "Login");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "(//a[text()='BBC '])[1]");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//a[text()='Booking']");
             objCommon.sleepForSeconds(5);
             objCommon.clickElement("xpath", "//td[text()='Yuvi Company']//..//a[@title='Users']");
             objCommon.sleepForSeconds(5);
@@ -76,13 +216,64 @@ namespace BossAT.TestCases.BBC
             objCommon.sleepForSeconds(5);
             objCommon.clickElement("id", "btncloseModal");
             objCommon.sleepForSeconds(5);
+        }
+        [Test]
+        [Category("BBC")]
+        public void TC_BAS_90()
+        {
+            /* Verify delete functionality */
+            objCommon = new Common(GetDriver());
+            aTConfigurations = objCommon.getConfig();
+            objCommon.goToPage(aTConfigurations.AppUrl1);
+            objCommon.fillTextBox("id", "Email", aTConfigurations.Username);
+            objCommon.fillTextBox("id", "PasswordHash", aTConfigurations.Password);
+            objCommon.clickElement("name", "Login");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "(//a[text()='BBC '])[1]");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//a[text()='Booking']");
+            objCommon.sleepForSeconds(5);
             objCommon.clickElement("xpath", "//td[text()='Yuvi Company']//..//span[@class='slider round']");
             objCommon.sleepForSeconds(5);
             objCommon.clickElement("xpath", "(//button[contains(text(),'Yes')])[1]");
             objCommon.sleepForSeconds(5);
+        }
+        [Test]
+        [Category("BBC")]
+        public void TC_BAS_91()
+        {
+            /* Verify delete functionality */
+            objCommon = new Common(GetDriver());
+            aTConfigurations = objCommon.getConfig();
+            objCommon.goToPage(aTConfigurations.AppUrl1);
+            objCommon.fillTextBox("id", "Email", aTConfigurations.Username);
+            objCommon.fillTextBox("id", "PasswordHash", aTConfigurations.Password);
+            objCommon.clickElement("name", "Login");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "(//a[text()='BBC '])[1]");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//a[text()='Booking']");
+            objCommon.sleepForSeconds(5);
             objCommon.clickElement("xpath", "//td[text()='Yuvi Company']//..//span[@class='slider round']");
             objCommon.sleepForSeconds(5);
             objCommon.clickElement("xpath", "(//button[contains(text(),'Yes')])[1]");
+            objCommon.sleepForSeconds(5);
+        }
+        [Test]
+        [Category("BBC")]
+        public void TC_BAS_89()
+        {
+            /* Verify delete functionality */
+            objCommon = new Common(GetDriver());
+            aTConfigurations = objCommon.getConfig();
+            objCommon.goToPage(aTConfigurations.AppUrl1);
+            objCommon.fillTextBox("id", "Email", aTConfigurations.Username);
+            objCommon.fillTextBox("id", "PasswordHash", aTConfigurations.Password);
+            objCommon.clickElement("name", "Login");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "(//a[text()='BBC '])[1]");
+            objCommon.sleepForSeconds(5);
+            objCommon.clickElement("xpath", "//a[text()='Booking']");
             objCommon.sleepForSeconds(5);
             objCommon.clickElement("xpath", "(//th[contains(text(),'Account Name')])[1]");
             objCommon.sleepForSeconds(5);
@@ -97,5 +288,6 @@ namespace BossAT.TestCases.BBC
             objCommon.clickElement("xpath", "(//th[contains(text(),'Total Value')])[1]");
             objCommon.sleepForSeconds(5);
         }
+
     }
 }

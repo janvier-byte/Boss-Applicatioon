@@ -111,6 +111,7 @@
   <ItemGroup>
     <Compile Include="Classes\CommonClass.cs" />
     <Compile Include="TestCases\BBC\BookingSoW.cs" />
+    <Compile Include="TestCases\BBC\View_Booking_Accounts_vs_Booking.cs" />
     <Compile Include="TestCases\Prospect\CreateLead.cs" />
     <Compile Include="TestCases\Prospect\EditLeads.cs" />
     <Compile Include="TestCases\Prospect\ViewLeads.cs" />
